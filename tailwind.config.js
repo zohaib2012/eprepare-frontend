@@ -13,6 +13,15 @@ export default {
           dark: '#1A202C',
         }
       },
+      keyframes: {
+        ticker: {
+          '0%':   { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
+      },
+      animation: {
+        ticker: 'ticker 35s linear infinite',
+      },
     },
   },
   plugins: [],
